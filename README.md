@@ -14,3 +14,5 @@ It contains:
 * **Run-Script.psf**: PowerShell Studio source file for the "Run My Script" app.
 
 * **New-DateFile.ps1** and **Today.txt**: Files that Run-Script.psf uses.
+
+For questions or comments, use the Issues in this repo.
