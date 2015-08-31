@@ -1,5 +1,6 @@
 ﻿<File version="2">
   <FileID>7d56c074-87d4-4aaf-95c5-53d32dc65d45</FileID>
+  <LastExport>130855381657998696</LastExport>
   <Preview>iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAAAXNSR0IArs4c6QAAAARnQU1BAACx
 jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAADMpSURBVHhe7d13dNT1vu9/T9m//+7v3rXOueeu
 c/fvnnvPOXvf7dnbrRTLtveCIogiiNIUKUpTBEREOtKU3jtEegsECCG9EhLSe09mMpnJpHcI4Ov3
@@ -294,7 +295,29 @@ AAAAAAAAAAAAAIBXu+uu/x+bN1vVUjjaNQAAAABJRU5ErkJggg==</Preview>
       <Reference name="formGetService" />
     </Property>
   </Object>
-  <Code><![CDATA[#Script-level (not global) variables
+  <Code><![CDATA[<#	
+.NOTES
+===========================================================================
+ Created with: 	SAPIEN Technologies, Inc., PowerShell Studio 2015 v4.2.93
+ Created on:   	8/31/2015 5:34 PM
+ Created by:   	June Blender (@juneb_get_help)
+ Organization: 	SAPIEN Technologies, Inc. 
+ Filename:     	Get-Service.psf
+===========================================================================
+.DESCRIPTION
+Creates a form that runs Get-Service on the specified computer. 
+
+The user enters the computer name in the text box and presses the Get Service
+button. The event handlers trim the text in the text box and use it in the Get-Service command. 
+
+If the text box is empty (no chars or only spaces), the Get-Service button is disabled.
+
+If the computer name is not valid, a message box displays the error.
+
+The user can also press Enter in the text box, because Get-Service is the AcceptButton for the form.
+#>
+
+#Script-level (not global) variables
 $script:cn = ''
 
 
@@ -305,7 +328,6 @@ $formGetService_Load={
 	#I typically set these properties in the Properties dialog, 
 	#but I'm setting them here explicitly
 	$formGetService.AcceptButton = $buttonGetService
-	$labelComputerName.TabStop = $false
 	
 	$buttonOK.DialogResult = 'OK'
 	$buttonClose.DialogResult = 'None'	
@@ -313,11 +335,11 @@ $formGetService_Load={
 
 
 $buttonOK_Click={
-	#Set to DialogResult = 'OK'
+	#DialogResult = 'OK'
 }
 
 $buttonClose_Click = {
-	#Set to DialogResult = 'None'
+	#DialogResult = 'None'
 	$formGetService.Close()
 }
 
@@ -336,7 +358,7 @@ $textboxComputerName_TextChanged={
 }
 
 $labelComputerName_Click={
-	#Set to TabStop = $false	
+	
 }
 
 
