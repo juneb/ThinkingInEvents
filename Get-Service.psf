@@ -1,6 +1,6 @@
 ﻿<File version="2">
   <FileID>7d56c074-87d4-4aaf-95c5-53d32dc65d45</FileID>
-  <LastExport>130855381657998696</LastExport>
+  <LastExport>130857010854965929</LastExport>
   <Preview>iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAAAXNSR0IArs4c6QAAAARnQU1BAACx
 jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAADMpSURBVHhe7d13dNT1vu9/T9m//+7v3rXOueeu
 c/fvnnvPOXvf7dnbrRTLtveCIogiiNIUKUpTBEREOtKU3jtEegsECCG9EhLSe09mMpnJpHcI4Ov3
@@ -321,10 +321,13 @@ The user can also press Enter in the text box, because Get-Service is the Accept
 $script:cn = ''
 
 
-$formGetService_Load={
-	$textboxComputerName.Text = $env:COMPUTERNAME
-	$script:cn = $textboxComputerName.Text
+$formGetService_Load = {
 	
+	# Assigning a value to the Text property of the textbox
+	# triggers the Textbox_TextChanged event, which assigns 
+	# a new value to $script:cn.
+	$textboxComputerName.Text = $env:COMPUTERNAME
+		
 	#I typically set these properties in the Properties dialog, 
 	#but I'm setting them here explicitly
 	$formGetService.AcceptButton = $buttonGetService
@@ -349,7 +352,6 @@ $textboxComputerName_TextChanged={
 	$buttonGetService.Enabled = $script:cn
 	
 #	$buttonOK.Enabled = $textboxComputerName.Text.Trim() -ne ""
-	
 #	$buttonGetService.Enabled = $false
 #	if ($textboxComputerName.Text.Trim() -ne "")
 #	{
@@ -363,7 +365,6 @@ $labelComputerName_Click={
 
 
 $buttonGetService_Click={
-	#TODO: Place custom script here
 	#$cn = $textboxComputerName.Text.Trim()
 	
 	try
