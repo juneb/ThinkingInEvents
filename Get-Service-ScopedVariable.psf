@@ -1,0 +1,418 @@
+﻿<File version="2">
+  <FileID>7d56c074-87d4-4aaf-95c5-53d32dc65d45</FileID>
+  <LastExport>130857929437015051</LastExport>
+  <Preview>iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAADMpSURBVHhe7d13dNT1vu9/T9m//+7v3rXOueeu
+c/fvnnvPOXvf7dnbrRTLtveCIogiiNIUKUpTBEREOtKU3jtEegsECCG9EhLSe09mMpnJpHcI4Ov3
++U4SQXfO3qCIkHk+1nouZMp3ZsLMfN7fKfEuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAEDnEk2OX/3qV45/+Zf/zzF48GDH0KHDHMOGDSciIqI7oHffHe64
+++67HX//93/vsNZ0U761wP9Ff/u3f1v5T//0T+r9ysv6ZMpUHTsZpIw8h3KLy5VT6CIiIqLbtaK2
+4pLStXjpV+rTp49+/etf6+/+7u+utC/zf5HjlVde0dr1mxWfUaLw5CJTIREREd0hhSUVKrXApT37
+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
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAIBXu+uu/x+bN1vVUjjaNQAAAABJRU5ErkJggg==</Preview>
+  <Object type="System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="formGetService" children="Controls">
+    <Property name="AcceptButton">
+      <Reference name="buttonGetService" />
+    </Property>
+    <Property name="ClientSize">557, 120</Property>
+    <Property name="FormBorderStyle">FixedDialog</Property>
+    <Property name="MaximizeBox">False</Property>
+    <Property name="MinimizeBox">False</Property>
+    <Property name="Name">formGetService</Property>
+    <Property name="Text">Get-Service</Property>
+    <Event name="Load">formGetService_Load</Event>
+    <Object type="System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="buttonGetService" children="Controls">
+      <Property name="Location">144, 77</Property>
+      <Property name="Name">buttonGetService</Property>
+      <Property name="Size">271, 31</Property>
+      <Property name="TabIndex">1</Property>
+      <Property name="Text">Get-Service</Property>
+      <Property name="UseVisualStyleBackColor">True</Property>
+      <Event name="Click">buttonGetService_Click</Event>
+    </Object>
+    <Object type="System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="buttonClose" children="Controls">
+      <Property name="Location">12, 77</Property>
+      <Property name="Name">buttonClose</Property>
+      <Property name="Size">111, 31</Property>
+      <Property name="TabIndex">3</Property>
+      <Property name="Text">Close</Property>
+      <Property name="UseVisualStyleBackColor">True</Property>
+      <Event name="Click">buttonClose_Click</Event>
+    </Object>
+    <Object type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="labelComputerName" children="Controls">
+      <Property name="Font">Microsoft Sans Serif, 9.75pt</Property>
+      <Property name="Location">12, 15</Property>
+      <Property name="Name">labelComputerName</Property>
+      <Property name="Size">158, 23</Property>
+      <Property name="TabIndex">4</Property>
+      <Property name="Text">ComputerName:</Property>
+      <Event name="Click">labelComputerName_Click</Event>
+    </Object>
+    <Object type="System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="buttonOK" children="Controls">
+      <Property name="DialogResult">OK</Property>
+      <Property name="Location">434, 77</Property>
+      <Property name="Name">buttonOK</Property>
+      <Property name="Size">111, 31</Property>
+      <Property name="TabIndex">2</Property>
+      <Property name="Text">OK</Property>
+      <Property name="UseVisualStyleBackColor">True</Property>
+      <Event name="Click">buttonOK_Click</Event>
+    </Object>
+    <Object type="System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="textboxComputerName" children="Controls">
+      <Property name="Font">Microsoft Sans Serif, 9.75pt</Property>
+      <Property name="Location">176, 12</Property>
+      <Property name="Name">textboxComputerName</Property>
+      <Property name="Size">355, 22</Property>
+      <Property name="TabIndex">0</Property>
+      <Event name="TextChanged">textboxComputerName_TextChanged</Event>
+    </Object>
+  </Object>
+  <Object type="System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="errorprovider1">
+    <Property name="ContainerControl">
+      <Reference name="formGetService" />
+    </Property>
+  </Object>
+  <Code><![CDATA[<#	
+.NOTES
+===========================================================================
+ Created with: 	SAPIEN Technologies, Inc., PowerShell Studio 2015 v4.2.93
+ Created on:   	8/31/2015 5:34 PM
+ Created by:   	June Blender (@juneb_get_help)
+ Organization: 	SAPIEN Technologies, Inc. 
+ Filename:     	Get-Service.psf
+===========================================================================
+.DESCRIPTION
+Creates a PowerShell GUI that runs Get-Service on the specified computer. 
+
+The user enters the computer name in the text box and clicks the Get Service
+button or presses <Enter>.
+
+-- The default value in the textbox is the local computer name.
+-- If the text box is empty (no chars or only spaces), the Get-Service button is disabled.
+-- If the computer name is not valid, a message box displays the error.
+-- The user can also press Enter in the text box, because Get-Service is the AcceptButton for the form.
+
+This version of the script uses a script-scoped variable, $cn, for the value in $TextboxComputerName.
+Because the script block in each event handler has its own scope, variables that are shared among the
+event handlers must be kept in a parent scope. 
+
+Event handlers (any child scope) can read the script-scoped $cn variable, but they can't 
+change it unless they refer to it explicitly as $script:cn. If a statement refers to a variable 
+that doesn't exist in local scope, PowerShell looks for the variable in each parent scope.
+
+In this code, I write the variables as required, but put the code with the intended scope in a comment.
+
+#>
+
+# *******************************************************
+# Script-level (not global) variables
+# *******************************************************
+# It's not necssary to define the script-scoped $cn variable here. 
+# PowerShell creates it when it's referenced in $textboxComputerName_TextChanged.
+# This script is designed to teach scoping. In any other script, I would 
+# define it here clarify intent, even if it's not necessary.
+
+# $script:cn = ''
+
+$formGetService_Load = {
+	
+	# This statement sets a default value for the textbox.
+	# Assigning a value to the Text property of the textbox
+	# triggers the Textbox_TextChanged event, which assigns 
+	# a new value to $script:cn. No need to do it explicitly.
+	$textboxComputerName.Text = $env:COMPUTERNAME
+		
+	#I typically set these properties in the PowerShell Studio
+	# Properties dialog, but I'm setting them here explicitly
+	# to make it easier to debug my .psf file.
+	$formGetService.AcceptButton = $buttonGetService
+	
+	$buttonOK.DialogResult = 'OK'
+	$buttonClose.DialogResult = 'None'	
+}
+
+
+$buttonOK_Click={
+	#DialogResult = 'OK'
+}
+
+$buttonClose_Click = {
+	#DialogResult = 'None'
+	$formGetService.Close()
+}
+
+$textboxComputerName_TextChanged={
+	# This statement creates a script-level variable and assigns
+	# to it the value in the textbox.
+	# To change a script-level variable, you must use a scope modifier.
+	# Else, it creates a new variable in local scope.
+	$script:cn = $textboxComputerName.Text.Trim()
+	
+	$buttonGetService.Enabled = $false
+	# if ($script.cn -ne '')
+	if ($cn -ne '')
+	{
+		$buttonGetService.Enabled = $true
+	}
+	
+	# Clever alternatives to the nice, clear code above.
+	#$buttonGetService.Enabled = $script:cn
+	#$buttonGetService.Enabled = $cn
+	#$buttonOK.Enabled = $textboxComputerName.Text.Trim() -ne ""
+	
+}
+
+$buttonGetService_Click={
+	try
+	{
+		# Explicit scoping is not necessary here, because the event handler is reading a
+		# value, not changing it.
+		#Get-Service -ComputerName $script:cn | Out-GridView -Title "Services on $script:cn"
+		Get-Service -ComputerName $cn | Out-GridView -Title "Services on $cn"
+	}
+	catch
+	{
+		[void][System.Windows.Forms.MessageBox]::Show("$($Error[0].Exception.Message)", "ComputerName Error")
+		#$errorprovider1.SetError($textboxComputerName, "Cannot get services on computer: $script:cn. `nCheck the spelling and try again.")		
+	}
+}
+
+$labelComputerName_Click = {	
+}
+]]></Code>
+  <Mode>1</Mode>
+  <Assemblies>
+    <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+    <Assembly>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+    <Assembly>System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+    <Assembly>System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+    <Assembly>System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+    <Assembly>System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+    <Assembly>System.DirectoryServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+    <Assembly>System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
+    <Assembly>System.ServiceProcess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+  </Assemblies>
+</File>
