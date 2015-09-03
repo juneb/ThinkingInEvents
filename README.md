@@ -15,4 +15,8 @@ This repo contains:
 
 * **New-DateFile.ps1** and **Today.txt**: Files that Run-Script.psf uses.
 
+* **Get-Service-ScopedVariable.psf**: PowerShell Studio version of Get-Service that shows how to use variables whose values are shared by all event handlers in the script.
+
+* **Get-Service-ScopedVariable.Export.ps1**: The app-independent version of the .psf file. 
+
 For questions or comments, use the Issues feature in this repo.
