@@ -3,6 +3,8 @@ This GitHub repo contains the PowerPoint slides and code that I use in my *Think
 
 If you'd like me to present this hands-on lab (or a different one!) to your user group, contact me at [juneb@sapien.com](mailto:juneb@sapien.com) or on Twitter at [@juneb_get_help](http://twitter.com/juneb_get_help).
 
+For resources about writing your first for PowerShell GUI app, see [PowerShell GUI Apps: Where do I start?](https://www.sapien.com/blog/2015/07/16/powershell-guis-where-do-i-start/)
+
 This repo contains:
 
 * **ThinkingInEvents-UserGroupTalk.pptx**: Slides
