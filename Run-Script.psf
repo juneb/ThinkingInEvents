@@ -247,25 +247,21 @@ iIiIaCj2ta/9f4Yx+x3Nm0qWAAAAAElFTkSuQmCC</Preview>
 	.DESCRIPTION
 		Runs a script and populates a confirmation in an output text box.
 #>
-
-
-
 $formRunScript_Load = {	
 	$statusbar1.Visible = $false
 }
 
 $buttonRunScript_Click = {
-	
 	try
 	{
 		$textboxOutput.Text = ''
 		$statusbar1.Text = ''
 		$statusbar1.Visible = $false
 		
-		if ($result = C:\ps-test\New-DateFile.ps1)
-		{
-			
-			$textboxOutput.Text = Get-Content "C:\ps-test\Today.txt" -ErrorAction Stop
+		$todayPath = Join-Path (Get-Location) -ChildPath 'Today.txt'
+		if (New-Item -ItemType File -Path $todayPath -Value (Get-Date) -Force)
+		{			
+			$textboxOutput.Text = Get-Content $todayPath -ErrorAction Stop
 			$statusbar1.Text = "Status: Script succeeded."
 			$statusbar1.Visible = $true
 		}
