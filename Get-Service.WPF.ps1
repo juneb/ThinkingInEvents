@@ -7,15 +7,15 @@
     Height="Auto"
     SizeToContent="WidthAndHeight"
     Title="Get-Service">
-    <ScrollViewer Padding="20">
+    <ScrollViewer Padding="10,10,10,0" ScrollViewer.VerticalScrollBarVisibility="Disabled">
         <StackPanel>
             <StackPanel Orientation="Horizontal">
                 <Label>ComputerName</Label>
-                <TextBox Name="Input" Width="250px"></TextBox>
+                <TextBox Name="Input" Margin="10" Width="250px"></TextBox>
             </StackPanel>
             <DockPanel>
-                <Button  Name="ButtonGetService" Content="Get-Service" Width="150px" IsEnabled="false"/>
-                <Button  Name="ButtonClose" Content="Close" HorizontalAlignment="Right" Width="50px"/>
+                <Button Name="ButtonGetService" Content="Get-Service" Margin="10" Width="150px" IsEnabled="false"/>
+                <Button Name="ButtonClose" Content="Close" HorizontalAlignment="Right" Margin="10" Width="50px"/>
             </DockPanel>
         </StackPanel> 
     </ScrollViewer >
