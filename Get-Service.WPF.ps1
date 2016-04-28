@@ -10,7 +10,7 @@
     <ScrollViewer Padding="10,10,10,0" ScrollViewer.VerticalScrollBarVisibility="Disabled">
         <StackPanel>
             <StackPanel Orientation="Horizontal">
-                <Label>ComputerName</Label>
+                <Label Margin="10,10,0,10">ComputerName:</Label>
                 <TextBox Name="Input" Margin="10" Width="250px"></TextBox>
             </StackPanel>
             <DockPanel>
