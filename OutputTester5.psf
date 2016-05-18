@@ -220,6 +220,7 @@ AABJRU5ErkJggg==</Preview>
     <Property name="Text">Output Tester</Property>
     <Event name="Load">formOutputTester_Load</Event>
     <Object type="System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="buttonReset" children="Controls">
+      <Property name="Anchor">Top, Right</Property>
       <Property name="Location">521, 12</Property>
       <Property name="Name">buttonReset</Property>
       <Property name="Size">75, 23</Property>
@@ -229,6 +230,7 @@ AABJRU5ErkJggg==</Preview>
       <Event name="Click">buttonReset_Click</Event>
     </Object>
     <Object type="System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="textboxInformation" children="Controls">
+      <Property name="Anchor">Top, Left, Right</Property>
       <Property name="BackColor">Navy</Property>
       <Property name="Font">Segoe UI, 9.75pt</Property>
       <Property name="ForeColor">255, 128, 255</Property>
@@ -239,6 +241,7 @@ AABJRU5ErkJggg==</Preview>
       <Property name="TabIndex">7</Property>
     </Object>
     <Object type="System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="textboxDebug" children="Controls">
+      <Property name="Anchor">Top, Left, Right</Property>
       <Property name="BackColor">Navy</Property>
       <Property name="Font">Segoe UI, 9.75pt</Property>
       <Property name="ForeColor">255, 128, 0</Property>
@@ -249,6 +252,7 @@ AABJRU5ErkJggg==</Preview>
       <Property name="TabIndex">6</Property>
     </Object>
     <Object type="System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="textboxError" children="Controls">
+      <Property name="Anchor">Top, Left, Right</Property>
       <Property name="BackColor">Navy</Property>
       <Property name="Font">Segoe UI, 9.75pt</Property>
       <Property name="ForeColor">Red</Property>
@@ -260,6 +264,7 @@ AABJRU5ErkJggg==</Preview>
       <Event name="TextChanged">textboxError_TextChanged</Event>
     </Object>
     <Object type="System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="textboxVerbose" children="Controls">
+      <Property name="Anchor">Top, Left, Right</Property>
       <Property name="BackColor">Navy</Property>
       <Property name="Font">Segoe UI, 9.75pt</Property>
       <Property name="ForeColor">Chartreuse</Property>
@@ -270,6 +275,7 @@ AABJRU5ErkJggg==</Preview>
       <Property name="TabIndex">4</Property>
     </Object>
     <Object type="System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="textboxWarning" children="Controls">
+      <Property name="Anchor">Top, Left, Right</Property>
       <Property name="BackColor">Navy</Property>
       <Property name="Font">Segoe UI, 9.75pt</Property>
       <Property name="ForeColor">Yellow</Property>
@@ -280,6 +286,7 @@ AABJRU5ErkJggg==</Preview>
       <Property name="TabIndex">3</Property>
     </Object>
     <Object type="System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="textboxOutput" children="Controls">
+      <Property name="Anchor">Top, Left, Right</Property>
       <Property name="BackColor">Navy</Property>
       <Property name="Font">Segoe UI, 9.75pt</Property>
       <Property name="ForeColor">WhiteSmoke</Property>
@@ -339,7 +346,7 @@ $textboxError_TextChanged = {
 $textboxOutput_TextChanged = {
 	
 }]]></Code>
-  <Mode>1</Mode>
+  <Mode>0</Mode>
   <Assemblies>
     <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
     <Assembly>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
