@@ -29,5 +29,5 @@ For **background information** about how the features work, see: [How Do Multi-F
 Technology Evangelist<br>
 SAPIEN Technologies, Inc.<br>
 Windows PowerShell MVP<br>
-[@juneb\_get\\_help](https://twitter.com/juneb_get_help)
+[@juneb_get_help](https://twitter.com/juneb_get_help)
 
